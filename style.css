@@ -1,20 +1,56 @@
-body{
+body {
     background-color: orangered;
 }
 
-.head{
+.head {
     color: blue;
 }
 
-#bglime{
+#bglime {
     background-color: lime;
 }
 
-h2 span{
+h2 span {
     color: red;
 }
 
+p {
+    color: white;
+}
 
-#para{
+#para {
     color: green;
+}
+
+#para span {
+    color: black;
+    font-size: 24px;
+}
+
+ul li:first-child span {
+    color: green;
+    background: white;
+}
+
+ul li:last-child span {
+    color: purple;
+    background-color: black;
+}
+
+ol li:first-child span {
+    color: blue;
+}
+
+ol li:nth-child(2) span {
+    color: skyblue;
+}
+
+ol li:nth-child(3) {
+    background-color: blue;
+    color: red;
+}
+
+ol li:nth-child(4) {
+    background-color: red;
+    color: blue;
 }
